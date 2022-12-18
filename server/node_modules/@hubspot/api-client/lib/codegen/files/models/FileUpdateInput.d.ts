@@ -1,0 +1,22 @@
+export declare class FileUpdateInput {
+    'name'?: string;
+    'parentFolderId'?: string;
+    'parentFolderPath'?: string;
+    'isUsableInContent'?: boolean;
+    'access'?: FileUpdateInputAccessEnum;
+    static readonly discriminator: string | undefined;
+    static readonly attributeTypeMap: Array<{
+        name: string;
+        baseName: string;
+        type: string;
+        format: string;
+    }>;
+    static getAttributeTypeMap(): {
+        name: string;
+        baseName: string;
+        type: string;
+        format: string;
+    }[];
+    constructor();
+}
+export type FileUpdateInputAccessEnum = "PUBLIC_INDEXABLE" | "PUBLIC_NOT_INDEXABLE" | "HIDDEN_INDEXABLE" | "HIDDEN_NOT_INDEXABLE" | "HIDDEN_PRIVATE" | "PRIVATE";
