@@ -3,7 +3,7 @@ Full-stack application fetching contacts in HubSpot portal and allowing for CRUD
 
 ## Table of Content
 > ### Technologies used
-> ### Available Scripts and How to Run Locally Run App
+> ### Available Scripts and How to Locally Run App
 > ### Refactoring
 > ### License
 > ### Detailed Instructions for Assessment (Copied & Pasted) below
