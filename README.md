@@ -1,4 +1,4 @@
-# Full stack developer assessment
+# Full stack HubSpot Demo
 Full-stack application fetching contacts in HubSpot portal and allowing for CRUD functionality.
 
 ## Table of Content
